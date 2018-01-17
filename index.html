@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Forbes-Assignment</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body onload="getImages('3')">
+    <div id="loader" class="loading" ></div>
+    <button onclick="buttonClicked()">Next page </button>
+    <div id="modal" class="overlay">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeModal()">&times;</a>
+      <div class="overlay-content" id="modal-images"></div>
+    </div>
+    <div id='images'></div>
+  <script src="./index.js"></script>
+  </body>
+</html>
